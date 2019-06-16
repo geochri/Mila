@@ -5,3 +5,17 @@
 # Mila
 <div style="text-align:center"><img src ="Observations/All.png"  width="1000"/></div>
 <div style="text-align:center"><img src ="Observations/Contour.png"  width="500"/></div>
+
+### CIFAR-10:
+
+#### ResNet v1:
+
+##### ResNet-20:
+
+|Activation Function| Top-1 Accuracy| Loss|
+|---|---|---|
+|Mish|91.81%|4.47284%|
+|Swish-1|**91.95%**|**4.440651%**|
+|ReLU|91.5%|4.94356%|
+|β-Mish (β = 1.5)|91.75%|4.4894%|
+|Mila (β = 1)|91.85%|4.5375%|
