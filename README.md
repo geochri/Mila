@@ -4,4 +4,4 @@
 
 # Mila
 <div style="text-align:center"><img src ="Observations/All.png"  width="1000"/></div>
-<div style="text-align:center"><img src ="Observations/Contour.png"  width="600"/></div>
+<div style="text-align:center"><img src ="Observations/Contour.png"  width="500"/></div>
