@@ -3,11 +3,19 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/digantamisra98/Mila/issues)
 
 # Mila
+
+*Mila* is a uniparametric activation function inspired from the Mish Activation Function. The parameter β is used to control the concavity of the Global Minima of the Activation Function where β=0 is the baseline Mish Activation Function. Varying β in the negative scale reduces the concavity and vice versa. β is introduced to tackle gradient death scenarios due to the sharp global minima of Mish Activation Function. 
+
+The mathematical function of Mila is shown as below:
 <div style="text-align:center"><img src ="Observations/function.png"  width="450"/></div>
+It's partial derivatives:
 <div style="text-align:center"><img src ="Observations/dev1.png"  width="500"/></div>
 <div style="text-align:center"><img src ="Observations/dev2.png"  width="260"/></div>
+1<sup>st</sup> derivative of Mila when β=-0.25:
 <div style="text-align:center"><img src ="Observations/dev3.png"  width="560"/></div>
+Function and it's derivatives graphs for various values of β:
 <div style="text-align:center"><img src ="Observations/All.png"  width="1000"/></div>
+Contour Plot of Mila and it's 1<sup>st</sup> derivative.
 <div style="text-align:center"><img src ="Observations/Contour.png"  width="700"/></div>
 
 ### CIFAR-10:
