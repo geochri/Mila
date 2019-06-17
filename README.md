@@ -5,7 +5,7 @@
 # Mila
 <div style="text-align:center"><img src ="Observations/function.png"  width="450"/></div>
 <div style="text-align:center"><img src ="Observations/All.png"  width="1000"/></div>
-<div style="text-align:center"><img src ="Observations/Contour.png"  width="500"/></div>
+<div style="text-align:center"><img src ="Observations/Contour.png"  width="400"/></div>
 
 ### CIFAR-10:
 
