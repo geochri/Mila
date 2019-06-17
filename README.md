@@ -22,6 +22,8 @@ Function and it's derivatives graphs for various values of β:
 Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 <div style="text-align:center"><img src ="Observations/Contour.png"  width="700"/></div>
 
+## Benchmarks:
+
 ### CIFAR-10:
 
 #### ResNet v1:
