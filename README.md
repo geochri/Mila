@@ -22,3 +22,5 @@
 |Mila (β = -0.25)|91.9%|4.4655%|
 |Mila (β = 1.5)|91.44%|4.8906%|
 |Mila (β = 0.5)|91.48%|4.5398%|
+
+<div style="text-align:center"><img src ="Observations/res20.png"  width="1000"/></div>
