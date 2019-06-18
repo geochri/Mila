@@ -3,5 +3,4 @@ tensorflow-gpu
 torch
 numpy
 pandas
-collections
 argparse
