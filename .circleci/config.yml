@@ -42,7 +42,7 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-            python3 demo.py --MILA --class
+            python3 demo.py --activation mila --model_initialization class
 workflows:
   version: 1
   build_and_test:
