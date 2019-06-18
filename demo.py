@@ -18,11 +18,11 @@ from torch import optim
 import torch.nn.functional as F
 from torchvision import datasets, transforms
 
-# import custom activations
+# import Mila activation function
 from Mila.Torch.mila import mila
 import Mila.Torch.functional as Func
 
-# activation names constants
+# activation names constant
 MILA = 'mila'
 
 # create class for basic fully-connected deep neural network
@@ -43,7 +43,7 @@ class Classifier(nn.Module):
         # make sure the input tensor is flattened
         x = x.view(x.shape[0], -1)
 
-        # apply custom activation function
+        # apply Mila activation function
         if (self.activation == MILA):
             x = Func.mila(self.fc1(x))
 
@@ -60,7 +60,7 @@ def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description='Argument parser')
 
-    # Add argument to choose one of the activation functions
+    # Add argument to choose Mila activation function
     parser.add_argument('--activation', action='store', default = MILA,
                         help='Activation function for demonstration.',
                         choices = [MILA])
