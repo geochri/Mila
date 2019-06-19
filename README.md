@@ -60,3 +60,5 @@ Run the demo.py file to try out Mila in a simple network for Fashion MNIST class
 - Run the Python demo script. 
 
 > python3 demo.py --activation mila --model_initialization class
+
+*Note: The demo script is initialized with Mila having a β to be -0.25. Change the β ('beta' variable) in the script to try other beta values*
