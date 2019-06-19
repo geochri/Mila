@@ -43,3 +43,22 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 |Mila (β = 0.5)|91.48%|4.5398%|
 
 <div style="text-align:center"><img src ="Observations/res20.png"  width="1000"/></div>
+
+
+## Try it
+
+Run the demo.py file to try out Mila in a simple network for Fashion MNIST classification.
+
+- First clone the repository and navigate to the folder using the following command. 
+
+> cd \path_to_Mila_directory
+
+- Install dependencies
+
+> pip install requirements.txt
+
+- Run the Python demo script. 
+
+> python3 demo.py --activation mila --model_initialization class
+
+*Note: The demo script is initialized with Mila having a β to be -0.25. Change the β ('beta' variable) in the script to try other beta values*
