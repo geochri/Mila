@@ -1,0 +1,20 @@
+# Disable sudo to speed up the build
+sudo: false
+
+# Set the build language to Python
+language: python
+
+# Set the python version to 3.6.1
+python: 3.6.1
+
+# Install dependencies
+install:
+  - pip install -r requirements.txt
+
+# Run the demo script
+script:
+  - coverage run demo.py --activation mila --model_initialization class
+
+# Push the results back to codecov
+after_success:
+  - codecov
