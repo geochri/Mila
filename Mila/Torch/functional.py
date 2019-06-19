@@ -4,7 +4,6 @@ Script provides functional interface for Mila activation function.
 
 # import pytorch
 import torch
-from torch import nn
 import torch.nn.functional as F
 
 def mila(input, beta=1.0):

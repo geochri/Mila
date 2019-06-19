@@ -4,8 +4,6 @@ implemented for classification of Fashion MNIST dataset.
 '''
 
 # import basic libraries
-import numpy as np
-import pandas as pd
 from collections import OrderedDict
 
 # import custom packages
