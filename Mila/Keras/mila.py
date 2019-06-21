@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Layers that act as activation functions.
+"""Function Definition for Mila in Keras.
 """
 from __future__ import absolute_import
 from __future__ import division
