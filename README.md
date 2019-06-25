@@ -58,6 +58,7 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 |Mila (β = 1.5)|92.33%|4.58325%|
 |Mila (β = 0.5)|92.42%|4.39018%|
 
+<div style="text-align:center"><img src ="Observations/res32v1_c10.png"  width="1000"/></div>
 
 ## Try it
 
