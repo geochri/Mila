@@ -1,8 +1,0 @@
-tensorflow
-tensorflow-gpu
-torch
-torchvision
-numpy
-pandas
-argparse
-codecov
