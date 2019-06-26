@@ -146,6 +146,8 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 |Mila (β = 1.5)|**92.16%**|4.28656%|
 |Mila (β = 0.5)|92.14%|4.20645%|
 
+<div style="text-align:center"><img src ="Observations/res20v2_c10.png"  width="1000"/></div>
+
 ## Try it
 
 Run the demo.py file to try out Mila in a simple network for Fashion MNIST classification.
