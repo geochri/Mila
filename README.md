@@ -88,6 +88,8 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 |Mila (β = 1.5)|**92.7%**|4.45469%|98.83%|99.65%|
 |Mila (β = -0.25)|92.59%|**4.29828%**|98.98%|99.81%|
 
+<div style="text-align:center"><img src ="Observations/res56v1_c10.png"  width="1000"/></div>
+
 ##### ResNet-110:
 
 |Activation Function| Top-1 Accuracy| Loss|Top-3 Accuracy| Top-5 Accuracy| 
@@ -101,7 +103,7 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 |Mila (β = 1.5)|91.82%|4.72402%|98.71%|99.67%|
 |Mila (β = -0.25)|91.43%|4.49743%|98.75%|99.69%|
 
-<div style="text-align:center"><img src ="Observations/res110.png"  width="1000"/></div>
+<div style="text-align:center"><img src ="Observations/res110v1_c10.png"  width="1000"/></div>
 
 ##### ResNet-164:
 
@@ -115,7 +117,7 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 |Mila (β = 1.5)|79.63%|9.00763%|95.39%|98.81%|
 |Mila (β = -0.25)|**86.33%**|**6.64551%**|**97.64%**|**99.38%**|
 
-<div style="text-align:center"><img src ="Observations/res164.png"  width="1000"/></div>
+<div style="text-align:center"><img src ="Observations/res164v1_c10.png"  width="1000"/></div>
 
 ## Try it
 
