@@ -60,6 +60,20 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 
 <div style="text-align:center"><img src ="Observations/res32v1_c10.png"  width="1000"/></div>
 
+##### ResNet-44: 
+
+|Activation Function| Top-1 Accuracy| Loss| Top-3 Accuracy | Top-5 Accuracy|
+|---|---|---|---|---|
+|Mish|92.46%|4.4195%|99%|**99.82%**|
+|Swish-1|**92.84%**|**4.1272%**|98.96%|**99.82%**|
+|ReLU|92.33%|4.30961%|98.89%|99.73%|
+|Mila (β = 1)|92.58%|4.34736%|98.99%|99.79%|
+|Mila (β = 0.5)|92.74%|4.21489%|98.93%|99.7%|
+|Mila (β = 1.5)|92.56%|4.49745%|99.01%|99.75%|
+|Mila (β = -0.25)|92.78%|4.13684%|**99.08%**|99.8%|
+
+<div style="text-align:center"><img src ="Observations/res44v1_c10.png"  width="1000"/></div>
+
 ## Try it
 
 Run the demo.py file to try out Mila in a simple network for Fashion MNIST classification.
