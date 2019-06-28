@@ -148,6 +148,8 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 
 <div style="text-align:center"><img src ="Observations/res20v2_c10.png"  width="1000"/></div>
 
+##### ResNet-56:
+
 ## Try it
 
 Run the demo.py file to try out Mila in a simple network for Fashion MNIST classification.
