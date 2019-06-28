@@ -150,6 +150,89 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 
 ##### ResNet-56:
 
+|Activation Function| Top-1 Accuracy| Loss|Top-3 Accuracy| Top-5 Accuracy| 
+|---|---|---|---|---|
+|Mila (β = 1)|92.47%|4.56534%|98.84%|99.77%|
+|Mila (β = 0.5)|92.27%|4.27902%|99.11%|99.77%|
+|Mila (β = 1.5)|92.23%|4.47899%|99.07%|99.82%|
+|Mila (β = -0.25)|92.93%|3.93044%|99.13%|99.8%|
+
+<div style="text-align:center"><img src ="Observations/res56v2_c10.png"  width="1000"/></div>
+
+##### ResNet-110:
+
+|Activation Function| Top-1 Accuracy| Loss|Top-3 Accuracy| Top-5 Accuracy| 
+|---|---|---|---|---|
+|Mila (β = 1)|91.92%|4.46735%|98.99%|99.79%|
+|Mila (β = 0.5)|92.21%|4.23213%|**99.08%**|**99.83%**|
+|Mila (β = 1.5)|91.24%|4.79068%|98.8%|99.79%|
+|Mila (β = -0.25)|92.37%|**4.11378%**|99.06%|99.79%|
+|Mish|**92.58%**|4.16525%|98.97%|	99.72%|
+|Swish-1|	92.22%|	4.16021%|98.99%|99.75%|
+|ReLU|91.93%|4.22357%|	98.85%|	99.75%|
+
+<div style="text-align:center"><img src ="Observations/res110v2_c10.png"  width="1000"/></div>
+
+##### ResNet-164:
+
+|Activation Function| Top-1 Accuracy| Loss|Top-3 Accuracy| Top-5 Accuracy| 
+|---|---|---|---|---|
+|Mila (β = 1)|84.5%|7.03236%|97.06%|99.31%|
+|Mila (β = 0.5)|84.77%|6.89603%|97.3%|99.33%|
+|Mila (β = 1.5)|80.2%|9.03184%|96.6%|99.24%|
+|Mila (β = -0.25)|**87.88%**|**5.70955%**|97.97%|99.5%|
+|Mish|87.74%|	5.7284%|**98.07%**|	**99.61%**|
+|Swish-1|		86.13%|6.4354%|97.55%|99.4%|
+|ReLU|83.59%|7.3899%|	96.86%|99.41%|
+
+<div style="text-align:center"><img src ="Observations/res164v2_c10.png"  width="1000"/></div>
+
+### CIFAR-100:
+
+#### ResNet v1:
+
+##### ResNet-20:
+
+|Activation Function| Top-1 Accuracy| Loss|Top-3 Accuracy| Top-5 Accuracy| 
+|---|---|---|---|---|
+|Mila (β = 1)|66.58%|16.23801%|84.47%|89.65%|
+|Mila (β = 0.5)|66.65%|16.29548%|84.26%|90.01%|
+|Mila (β = 1.5)|66.58%|16.45771%|84.14%|89.73%|
+|Mila (β = -0.25)|67.23%|15.97333%|**85.2%**|90.2%|
+|Mish|**67.26%**|16.10206%|84.77%|90.08%|
+|Swish-1|	67.1%|16.11301634%|84.68%|90.24%|
+|ReLU|67%	|**15.653861%**|85.08%|	**90.28%**|
+
+<div style="text-align:center"><img src ="Observations/res20v1_c100.png"  width="1000"/></div>
+
+##### ResNet-32:
+
+|Activation Function| Top-1 Accuracy| Loss|Top-3 Accuracy| Top-5 Accuracy| 
+|---|---|---|---|---|
+|Mila (β = 1)|69.02%|17.01307%|86.26%|91.18%|
+|Mila (β = 0.5)|68.88%|17.21245%|**86.38%**|91.11%|
+|Mila (β = 1.5)|68.89%|17.48514%|85.52%|90.69%|
+|Mila (β = -0.25)|68.77%|17.23115%|85.93%|90.94%|
+|Mish|**69.44%**|	16.9508%|	86.25%|	**91.27%**|
+|Swish-1|68.84%|17.09074%|85.89%|90.96%|
+|ReLU|68.45%	|**16.64781%**|	85.94%|	91.05%|
+
+<div style="text-align:center"><img src ="Observations/res32v1_c100.png"  width="1000"/></div>
+
+##### ResNet-44:
+
+|Activation Function| Top-1 Accuracy| Loss|Top-3 Accuracy| Top-5 Accuracy| 
+|---|---|---|---|---|
+|Mila (β = 1)|69.49%|17.58251%|86.46%|91.23%|
+|Mila (β = 0.5)|69.3%|17.64013%|**86.5%**|**91.49%**|
+|Mila (β = 1.5)|**69.99%**|18.00744%|85.99%|91.04%|
+|Mila (β = -0.25)|69.54%|18.04861%|86.08%|90.91%|
+|Mish|	69.37%|18.04521%|85.87%|90.97%|
+|Swish-1|	69.62%|18.04978%|86.22%|91.08%|
+|ReLU|	69.73%|	**16.77497%**|	86%|	91.13%|
+
+<div style="text-align:center"><img src ="Observations/res44v1_c100.png"  width="1000"/></div>
+
 ## Try it
 
 Run the demo.py file to try out Mila in a simple network for Fashion MNIST classification.
