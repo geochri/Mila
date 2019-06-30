@@ -156,9 +156,9 @@ Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 |Mila (β = 0.5)|92.27%|4.27902%|99.11%|99.77%|
 |Mila (β = 1.5)|92.23%|4.47899%|99.07%|**99.82%**|
 |Mila (β = -0.25)|**92.93%**|**3.93044%**|**99.13%**|99.8%|
-|Mish|
-|Swish-1|
-|ReLU|
+|Mish|92.79%|4.06386%|98.96%|99.77%|
+|Swish-1|92.44%|4.3472%|99.02%|99.76%|
+|ReLU|92.4%|3.99512%|99.12%|**99.82%**|
 
 <div style="text-align:center"><img src ="Observations/res56v2_c10.png"  width="1000"/></div>
 
