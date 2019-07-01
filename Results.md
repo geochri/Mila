@@ -267,3 +267,17 @@
 |ReLU|70.54%	|**15.7801898%**|**86.96%**|	91.5%|
 
 <div style="text-align:center"><img src ="Observations/res20v2_c100.png"  width="1000"/></div>
+
+#### ResNet-56:
+
+|Activation Function| Top-1 Accuracy| Loss|Top-3 Accuracy| Top-5 Accuracy| 
+|---|---|---|---|---|
+|Mila (β = 1)|72.91%|15.66351%|88.31%|92.36%|
+|Mila (β = 0.5)|72.85%|15.39083%|88.49%|92.79%|
+|Mila (β = 1.5)|72.36%|15.57825%|88.65%|92.9%|
+|Mila (β = -0.25)|72.96%|15.35242%|88.62%|92.8%|
+|Mish|
+|Swish-1|
+|ReLU|
+
+<div style="text-align:center"><img src ="Observations/res56v2_c100.png"  width="1000"/></div>
