@@ -252,3 +252,18 @@
 
 <div style="text-align:center"><img src ="Observations/res164v1_c100.png"  width="1000"/></div>
 
+### ResNet v2:
+
+#### ResNet-20:
+
+|Activation Function| Top-1 Accuracy| Loss|Top-3 Accuracy| Top-5 Accuracy| 
+|---|---|---|---|---|
+|Mila (β = 1)|70.04%|16.91081%|86.26%|91.47%|
+|Mila (β = 0.5)|70.38%|16.43586%|86.45%|**91.57%**|
+|Mila (β = 1.5)|69.96%|16.82382%|86.45%|91.12%|
+|Mila (β = -0.25)|70.09%|16.62785%|86.68%|91.4%|
+|Mish|	**70.86%**|	16.373051%|86.6%|	91.26%|
+|Swish-1|70.23%|16.6179051%|	86.95%|	91.44%|
+|ReLU|70.54%	|**15.7801898%**|**86.96%**|	91.5%|
+
+<div style="text-align:center"><img src ="Observations/res20v2_c100.png"  width="1000"/></div>
