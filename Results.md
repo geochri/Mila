@@ -281,3 +281,7 @@
 |ReLU|
 
 <div style="text-align:center"><img src ="Observations/res56v2_c100.png"  width="1000"/></div>
+
+#### ResNet-110:
+
+
