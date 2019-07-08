@@ -24,6 +24,9 @@ Function and it's derivatives graphs for various values of β:
 Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 <div style="text-align:center"><img src ="Observations/Contour.png"  width="700"/></div>
 
+<div style="text-align:center"><img src ="Observations/Mila_noise.png"  width="700"/></div>
+<div style="text-align:center"><img src ="Observations/Mila_bar.png"  width="700"/></div>
+
 ## Benchmarks: 
 
 Please view the [Results.md](https://github.com/digantamisra98/Mila/blob/master/Results.md) to view the benchmarks.
