@@ -30,6 +30,11 @@ Early Analysis of Mila Activation Function:
 <div style="text-align:center"><img src ="Observations/Mila_noise.png"  width="700"/></div>
 <div style="text-align:center"><img src ="Observations/Mila_bar.png"  width="700"/></div>
 
+
+The output landscape of 5 layer randomly initialized neural network was compared for ReLU, Swish and Mila (β = -0.25). The observation clearly shows the sharp transition between the scalar magnitudes for the co-ordinates of ReLU as compared to Swish and Mila (β = -0.25). Smoother transition results in smoother loss functions which are easier to optimize and hence the network generalizes better. 
+
+<div style="text-align:center"><img src ="Observations/Mila_Landscape.png"  width="800"/></div>
+
 ## Benchmarks: 
 
 Please view the [Results.md](https://github.com/digantamisra98/Mila/blob/master/Results.md) to view the benchmarks.
