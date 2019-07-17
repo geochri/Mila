@@ -37,7 +37,7 @@ The output landscape of 5 layer randomly initialized neural network was compared
 
 The Gradients of Mila's scalar function representation was also visualized: 
 
-<div style="text-align:center"><img src ="Observations/Mila_gradients.png"  width="800"/></div>
+<div style="text-align:center"><img src ="Observations/Mila_gradients.png"  width="500"/></div>
 
 ## Benchmarks: 
 
