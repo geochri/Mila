@@ -28,4 +28,4 @@ class Mila(Layer):
         self.beta = beta
     
     def call(self, inputs):
-        return inputs * tf.math.tanh(tf.math.log(1 + tf.math.exp(self.beta + inputs)))
+        return inputs * tf.math.tanh(tf.math.softplus(inputs + self.beta))
