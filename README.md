@@ -1,5 +1,5 @@
 <p align="left">
-  <img width="300" src="Observations/logo_transparent.png">
+  <img width="500" src="Observations/logo_transparent.png">
 </p>
 
 [![HitCount](http://hits.dwyl.io/digantamisra98/Mila.svg)](http://hits.dwyl.io/digantamisra98/Mila)
