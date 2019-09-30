@@ -1,3 +1,7 @@
+<p align="left">
+  <img width="300" src="Observations/logo_transparent.png">
+</p>
+
 [![HitCount](http://hits.dwyl.io/digantamisra98/Mila.svg)](http://hits.dwyl.io/digantamisra98/Mila)
 [![Donate](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/digantamisra98/Mila/issues)
