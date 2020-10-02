@@ -1,6 +1,12 @@
+<p align="left">
+  <img width="500" src="Observations/logo_transparent.png">
+</p>
+
 [![HitCount](http://hits.dwyl.io/digantamisra98/Mila.svg)](http://hits.dwyl.io/digantamisra98/Mila)
 [![Donate](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/digantamisra98/Mila/issues)
+[![CircleCI](https://circleci.com/gh/digantamisra98/Mila.svg?style=svg)](https://circleci.com/gh/digantamisra98/Mila)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b8ed6f5451c14f57871154d460304dc5)](https://www.codacy.com/app/digantamisra98/Mila?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=digantamisra98/Mila&amp;utm_campaign=Badge_Grade)
 
 # Mila
 
@@ -22,23 +28,39 @@ Function and it's derivatives graphs for various values of β:
 Contour Plot of Mila and it's 1<sup>st</sup> derivative:
 <div style="text-align:center"><img src ="Observations/Contour.png"  width="700"/></div>
 
-## Benchmarks:
 
-### CIFAR-10:
+Early Analysis of Mila Activation Function: 
 
-#### ResNet v1:
+<div style="text-align:center"><img src ="Observations/Mila_noise.png"  width="700"/></div>
+<div style="text-align:center"><img src ="Observations/Mila_bar.png"  width="700"/></div>
 
-##### ResNet-20:
 
-|Activation Function| Top-1 Accuracy| Loss|
-|---|---|---|
-|Mish|91.81%|4.47284%|
-|Swish-1|**91.95%**|**4.440651%**|
-|ReLU|91.5%|4.94356%|
-|β-Mish (β = 1.5)|91.75%|4.4894%|
-|Mila (β = 1)|91.85%|4.5375%|
-|Mila (β = -0.25)|91.9%|4.4655%|
-|Mila (β = 1.5)|91.44%|4.8906%|
-|Mila (β = 0.5)|91.48%|4.5398%|
+The output landscape of 5 layer randomly initialized neural network was compared for ReLU, Swish and Mila (β = -0.25). The observation clearly shows the sharp transition between the scalar magnitudes for the co-ordinates of ReLU as compared to Swish and Mila (β = -0.25). Smoother transition results in smoother loss functions which are easier to optimize and hence the network generalizes better. 
 
-<div style="text-align:center"><img src ="Observations/res20.png"  width="1000"/></div>
+<div style="text-align:center"><img src ="Observations/Mila_Landscape.png"  width="800"/></div>
+
+The Gradients of Mila's scalar function representation was also visualized: 
+
+<div style="text-align:center"><img src ="Observations/Mila_gradients.png"  width="500"/></div>
+
+## Benchmarks: 
+
+Please view the [Results.md](https://github.com/digantamisra98/Mila/blob/master/Results.md) to view the benchmarks.
+
+## Try it
+
+Run the demo.py file to try out Mila in a simple network for Fashion MNIST classification.
+
+- First clone the repository and navigate to the folder using the following command. 
+
+> cd \path_to_Mila_directory
+
+- Install dependencies
+
+> pip install requirements.txt
+
+- Run the Python demo script. 
+
+> python3 demo.py --activation mila --model_initialization class
+
+*Note: The demo script is initialized with Mila having a β to be -0.25. Change the β ('beta' variable) in the script to try other beta values*

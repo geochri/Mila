@@ -4,7 +4,6 @@ Mila(x) = x * tanh(softplus(1 + β)) = x * tanh(ln(1 + exp(x+β)))
 '''
 
 # import pytorch
-import torch
 from torch import nn
 
 # import activation functions
